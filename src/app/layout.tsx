@@ -4,6 +4,7 @@ import './globals.css'
 import { BottomNavigation } from '@/components/BottomNavigation'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { ThemeToggle } from '@/components/ThemeToggle'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body className={inter.className}>
         <ThemeProvider>
           <ThemeToggle />
@@ -30,5 +34,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
