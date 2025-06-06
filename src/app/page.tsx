@@ -98,7 +98,7 @@ export default function Home() {
       </div>
 
       {/* Fixed Bottom Navigation */}
-      <BottomNavigation active="home" />
+      <BottomNavigation />
 
       {/* This div is only for gradient background, remove if not needed */}
       <div className="absolute inset-0 pointer-events-none z-0">

@@ -19,7 +19,7 @@ export default function About() {
               </p>
               
               <p>
-                Currently working as a DevOps Engineer Co-op at State Street/Charles River Development, where I focus on building scalable, reliable systems and automating cloud infrastructure. I enjoy working with technologies like Azure, Docker, Python, and Terraform to create efficient, maintainable solutions.
+                I most recently worked as a DevOps Engineer Co-op at State Street/Charles River Development, where I focused on building scalable, reliable systems and automating cloud infrastructure. I enjoy working with technologies like Azure, Docker, Python, and Terraform to create efficient, maintainable solutions.
               </p>
               
               <p>
