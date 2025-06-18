@@ -26,10 +26,10 @@ const projects = [
     image: "/api/placeholder/400/300"
   },
   {
-    title: "Cloud Infrastructure Automation",
-    description: "Infrastructure as Code templates and automation scripts for deploying scalable cloud environments with monitoring and security.",
-    tech: ["Terraform", "AWS", "Docker", "Python", "CloudFormation"],
-    github: "https://github.com/akash-v888/cloud-automation",
+    title: "InfraPulse",
+    description: "A cloud-based monitoring system that tracks the uptime and response time of web services, logs the data to SQLite, and visualizes it in Grafana with real-time dashboards and email alerts.",
+    tech: ["Python", "AWS", "Docker", "SQLite", "Grafana", "Terraform"],
+    github: "https://github.com/akash-v888/infrapulse",
     image: "/api/placeholder/400/300"
   },
   {
