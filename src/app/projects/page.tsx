@@ -5,6 +5,20 @@ import AnimatedPage from "@/components/AnimatedPage";
 
 const projects = [
   {
+    title: "Gym Form & Hand Gesture Tracker",
+    description: "A real-time computer vision system built from scratch to analyze full-body posture and classify hand gestures using both a custom neural network and an improved KNN algorithm. Initially developed to track exercise form using YOLOv8 and OpenCV in C++, the project was expanded in Python to support fine-grained hand gesture recognition via MediaPipe for more intuitive human-computer interaction.",
+    tech: ["Python", "C++", "OpenCV", "MediaPipe", "YOLOv8", "ONNX", "KNN", "Custom Neural Net"],
+    github: "https://github.com/akash-v888/gym-form-tracker",
+    image: "/api/placeholder/400/300"
+  },
+  {
+    title: "InfraPulse",
+    description: "InfraPulse is a cloud-native monitoring system that continuously checks the health of deployed services, logs uptime and response times, and visualizes trends in real-time with Grafana. Built with Python, SQLite, and Docker, the system runs on an EC2 instance provisioned via Terraform and includes email and Slack alerts for failure detection. Designed for extensibility with CI/CD and containerized infrastructure.",
+    tech: ["Python", "AWS", "Docker", "SQLite", "Grafana", "Terraform"],
+    github: "https://github.com/akash-v888/infrapulse",
+    image: "/api/placeholder/400/300"
+  },
+  {
     title: "Sentiment Analysis Dashboard",
     description: "A comprehensive dashboard that analyzes sentiment from multiple data sources using machine learning and natural language processing.",
     tech: ["Python", "Playwright", "GPT API", "React", "PostgreSQL"],
@@ -26,10 +40,10 @@ const projects = [
     image: "/api/placeholder/400/300"
   },
   {
-    title: "InfraPulse",
-    description: "A cloud-based monitoring system that tracks the uptime and response time of web services, logs the data to SQLite, and visualizes it in Grafana with real-time dashboards and email alerts.",
-    tech: ["Python", "AWS", "Docker", "SQLite", "Grafana", "Terraform"],
-    github: "https://github.com/akash-v888/infrapulse",
+    title: "YouTube & Spotify MP3 Downloader",
+    description: "A Python-based GUI tool that extracts audio using yt-dlp, embeds cover art with Mutagen, and parses Spotify playlists via Spotipy. Supports batch downloads, dynamic metadata tagging, and persistent folder memory.",
+    tech: ["Python", "yt-dlp", "Spotipy", "Tkinter", "Mutagen", "Requests", "dotenv"],
+    github: "https://github.com/your-username/mp3-downloader",
     image: "/api/placeholder/400/300"
   },
   {
