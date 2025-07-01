@@ -43,7 +43,7 @@ const projects = [
     title: "YouTube & Spotify MP3 Downloader",
     description: "A Python-based GUI tool that extracts audio using yt-dlp, embeds cover art with Mutagen, and parses Spotify playlists via Spotipy. Supports batch downloads, dynamic metadata tagging, and persistent folder memory.",
     tech: ["Python", "yt-dlp", "Spotipy", "Tkinter", "Mutagen", "Requests", "dotenv"],
-    github: "https://github.com/your-username/mp3-downloader",
+    github: "https://github.com/akash-v888/spotify-or-youtube2mp3",
     image: "/api/placeholder/400/300"
   },
   {
