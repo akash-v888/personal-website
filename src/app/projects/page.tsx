@@ -3,7 +3,16 @@
 import { useState } from 'react';
 import AnimatedPage from "@/components/AnimatedPage";
 
-const projects = [
+type Project = {
+  title: string;
+  description: string;
+  tech: string[];
+  github?: string;
+  image: string;
+  private?: boolean;
+};
+
+const projects: Project[] = [
   {
     title: "Gym Form & Hand Gesture Tracker",
     description: "A real-time computer vision system built from scratch to analyze full-body posture and classify hand gestures using both a custom neural network and an improved KNN algorithm. Initially developed to track exercise form using YOLOv8 and OpenCV in C++, the project was expanded in Python to support fine-grained hand gesture recognition via MediaPipe for more intuitive human-computer interaction.",
