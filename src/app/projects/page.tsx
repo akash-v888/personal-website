@@ -9,14 +9,14 @@ const projects = [
     description: "A real-time computer vision system built from scratch to analyze full-body posture and classify hand gestures using both a custom neural network and an improved KNN algorithm. Initially developed to track exercise form using YOLOv8 and OpenCV in C++, the project was expanded in Python to support fine-grained hand gesture recognition via MediaPipe for more intuitive human-computer interaction.",
     tech: ["Python", "C++", "OpenCV", "MediaPipe", "YOLOv8", "ONNX", "KNN", "Custom Neural Net"],
     github: "https://github.com/akash-v888/gym-form-tracker",
-    image: "/api/placeholder/400/300"
+    image: "/handgesture.png"
   },
   {
     title: "InfraPulse",
     description: "InfraPulse is a cloud-native monitoring system that continuously checks the health of deployed services, logs uptime and response times, and visualizes trends in real-time with Grafana. Built with Python, SQLite, and Docker, the system runs on an EC2 instance provisioned via Terraform and includes email and Slack alerts for failure detection. Designed for extensibility with CI/CD and containerized infrastructure.",
     tech: ["Python", "AWS", "Docker", "SQLite", "Grafana", "Terraform"],
     github: "https://github.com/akash-v888/infrapulse",
-    image: "/api/placeholder/400/300"
+    image: "/infrapulse.png"
   },
   {
     title: "Sentiment Analysis Dashboard",
@@ -30,35 +30,35 @@ const projects = [
     description: "A complete implementation of the Reversi board game with an intelligent AI opponent using minimax algorithm with alpha-beta pruning.",
     tech: ["Java", "Swing", "JUnit", "Maven"],
     github: "https://github.com/akash-v888/reversi",
-    image: "/api/placeholder/400/300"
+    image: "/reversi.png"
   },
   {
     title: "Course Planning Tool",
     description: "An automated course planning system that helps students optimize their academic schedule based on prerequisites and preferences.",
     tech: ["SQL", "Docker", "Appsmith", "Node.js", "REST API"],
-    private: true,
-    image: "/api/placeholder/400/300"
+    github: "https://github.com/akash-v888/course-matchup",
+    image: "/coursematch.png"
   },
   {
     title: "YouTube & Spotify MP3 Downloader",
     description: "A Python-based GUI tool that extracts audio using yt-dlp, embeds cover art with Mutagen, and parses Spotify playlists via Spotipy. Supports batch downloads, dynamic metadata tagging, and persistent folder memory.",
     tech: ["Python", "yt-dlp", "Spotipy", "Tkinter", "Mutagen", "Requests", "dotenv"],
     github: "https://github.com/akash-v888/spotify-or-youtube2mp3",
-    image: "/api/placeholder/400/300"
+    image: "/spotify.png"
   },
   {
     title: "Instagram Non-Mutual Follower/Following",
     description: "A browser script that helps users identify Instagram accounts they follow who don’t follow them back. Requires manual execution via browser DevTools. **Not officially supported by Instagram — use responsibly.**",
     tech: ["JavaScript", "DevTools", "DOM Parsing"],
     github: "https://github.com/akash-v888/InstagramFollowersFollowing",
-    image: "/api/placeholder/400/300"
+    image: "/instafollows.png"
   },
   {
     title: "Sorting Algorithm Visualizer",
     description: "An interactive desktop app that visually demonstrates popular sorting algorithms including Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, and Quick Sort. Users can customize the number of elements, choose the initial array order (random, sorted, or reversed), and control the animation speed. Built with Python and Tkinter, it’s an educational tool for understanding sorting behavior through real-time visualization.",
     tech: ["Python", "Tkinter"],
     github: "https://github.com/akash-v888/algo_visualizer",
-    image: "/api/placeholder/400/300"
+    image: "/sort.png"
   },
 ];
 
