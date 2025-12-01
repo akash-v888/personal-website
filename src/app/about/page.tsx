@@ -20,11 +20,11 @@ export default function About() {
                 </p>
 
                 <p>
-                  Most recently, I worked as a DevOps Engineer Co-op at State Street, where I automated cloud infrastructure and helped scale internal systems using tools like Azure, Docker, and Python. I enjoy building reliable, maintainable solutions that reduce friction and make teams more efficient.
+                  Currently, I am working at Stellar Science as a Software Engineer, working on projects involving surrogate modeling and designing an internal LLM. Aside from those projects, I work alongside multiple teams to further optimize and enhance our physics modeling simulation applications, primarily using C++ and Python.
                 </p>
 
                 <p>
-                  I care about writing clean code, building thoughtfully, and creating systems that grow with the people and problems they serve. I'm always looking to contribute to meaningful projects that make a measurable impact.
+                  Previously, I worked as a DevOps Engineer Co-op at State Street, where I automated cloud infrastructure and helped scale internal systems using tools like Azure, Docker, and Python. I enjoy building reliable, maintainable solutions that reduce friction and make teams more efficient.
                 </p>
 
                 <p>
