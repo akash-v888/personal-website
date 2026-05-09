@@ -11,6 +11,7 @@ export const BottomNavigation = () => {
     { label: "Home", href: "/" },
     { label: "Projects", href: "/projects" },
     { label: "About", href: "/about" },
+    { label: "Resume", href: "/resume" },
     { label: "Contact", href: "/contact" },
   ];
 

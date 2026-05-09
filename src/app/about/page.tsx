@@ -40,12 +40,51 @@ export default function About() {
             {/* Right Column - Image */}
             <div className="flex justify-center">
               <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg aspect-square overflow-hidden rounded-lg">
-                <img 
+                <img
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/da2add90-c7f3-4367-9e47-c5d3bb31b60e/generated_images/abstract-geometric-composition-with-soft-d3748506-20250606202921.jpg"
                   alt="Profile placeholder"
                   className="w-full h-full object-cover bg-[var(--border-color)]"
                 />
               </div>
+            </div>
+          </div>
+
+          {/* Skills Section */}
+          <div className="mt-20 border-t border-[var(--border-color)] pt-16">
+            <h2 className="text-xs font-medium uppercase tracking-widest text-[var(--text-primary)] opacity-50 mb-10">
+              Technical Skills
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
+              {[
+                {
+                  category: "Languages",
+                  skills: ["Python", "C++", "Java", "TypeScript", "JavaScript", "SQL"],
+                },
+                {
+                  category: "Cloud & DevOps",
+                  skills: ["AWS", "Azure", "Docker", "Terraform", "CI/CD", "Linux"],
+                },
+                {
+                  category: "Frameworks & Tools",
+                  skills: ["React", "Next.js", "Node.js", "Git", "OpenCV", "MediaPipe"],
+                },
+              ].map(({ category, skills }) => (
+                <div key={category}>
+                  <p className="text-xs font-medium uppercase tracking-widest text-[var(--text-primary)] opacity-50 mb-4">
+                    {category}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {skills.map((skill) => (
+                      <span
+                        key={skill}
+                        className="text-xs px-3 py-1 border border-[var(--border-color)] text-[var(--text-primary)] tracking-wide rounded-full"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

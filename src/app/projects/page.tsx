@@ -32,7 +32,7 @@ const projects: Project[] = [
     description: "A comprehensive dashboard that analyzes sentiment from multiple data sources using machine learning and natural language processing.",
     tech: ["Python", "Playwright", "GPT API", "React", "PostgreSQL"],
     github: "https://github.com/akash-v888/sentiment-dashboard",
-    image: "/api/placeholder/400/300"
+    image: "/sentiment.png"
   },
   {
     title: "Reversi Game Engine", 
@@ -84,10 +84,11 @@ export default function Projects() {
             {projects.map((project, index) => (
               <div key={index} className="group cursor-pointer">
                 <div className="aspect-[4/3] bg-[var(--border-color)] mb-6 overflow-hidden">
-                  <img 
+                  <img
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-200"
+                    onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
                   />
                 </div>
 

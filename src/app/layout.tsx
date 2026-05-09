@@ -14,6 +14,25 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.ico',
   },
+  openGraph: {
+    title: 'Akash Viswanathan — Software Engineer',
+    description: 'CS & Economics graduate of Northeastern University (Cum Laude). Experience in backend engineering, cloud infrastructure, and AI systems. Open to Software Engineering and DevOps roles.',
+    type: 'website',
+    images: [
+      {
+        url: 'https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/da2add90-c7f3-4367-9e47-c5d3bb31b60e/generated_images/abstract-geometric-composition-with-clea-e89c4615-20250606202245.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Akash Viswanathan Portfolio',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Akash Viswanathan — Software Engineer',
+    description: 'CS & Economics graduate of Northeastern University (Cum Laude). Experience in backend engineering, cloud infrastructure, and AI systems.',
+    images: ['https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/da2add90-c7f3-4367-9e47-c5d3bb31b60e/generated_images/abstract-geometric-composition-with-clea-e89c4615-20250606202245.jpg'],
+  },
 };
 
 export default function RootLayout({

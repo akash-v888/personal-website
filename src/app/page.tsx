@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import AnimatedPage from "@/components/AnimatedPage";
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -73,6 +74,14 @@ export default function Home() {
           </motion.h1>
         </header>
 
+        {/* Open to Opportunities Badge */}
+        <div className="flex justify-center z-10 relative -mt-4 mb-2">
+          <span className="flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-[var(--text-primary)] opacity-70 border border-[var(--border-color)] rounded-full px-4 py-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block" />
+            Open to opportunities
+          </span>
+        </div>
+
         {/* Hero Section */}
         <section className="z-10 relative max-w-7xl w-full mx-auto px-4 sm:px-6 md:px-8 py-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image Carousel */}
@@ -111,6 +120,27 @@ export default function Home() {
               >
                 Quick bio
               </Link>
+            </div>
+
+            <div className="flex gap-5 justify-center lg:justify-start mt-2">
+              <a
+                href="https://github.com/akash-v888"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--text-primary)] opacity-60 hover:opacity-100 transition-opacity duration-200"
+                aria-label="GitHub"
+              >
+                <FaGithub size={22} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/akash-viswanathan/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--text-primary)] opacity-60 hover:opacity-100 transition-opacity duration-200"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedin size={22} />
+              </a>
             </div>
           </div>
         </section>
