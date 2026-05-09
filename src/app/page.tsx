@@ -96,7 +96,7 @@ export default function Home() {
           {/* Text + Links */}
           <div className="space-y-6 text-center lg:text-left">
             <p className="text-lg leading-relaxed text-[var(--text-primary)] max-w-md mx-auto lg:mx-0">
-              I’m a CS & Econ student at Northeastern building scalable backend systems, automating infrastructure, and exploring the potential of AI in software engineering.
+              I’m a Northeastern CS & Econ grad (Cum Laude) with hands-on co-op experience in software and DevOps engineering. I’m passionate about building scalable backend systems, automating cloud infrastructure, and applying AI to solve real engineering problems.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
               <Link

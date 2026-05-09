@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Akash Viswanathan - Portfolio',
-  description: 'CS & Economics student at Northeastern University, focusing on backend engineering, cloud automation, and infrastructure as code.',
+  description: 'CS & Economics graduate of Northeastern University (Cum Laude), with experience in software engineering, cloud infrastructure, and AI-driven systems. Actively seeking Software Engineering and DevOps roles.',
   icons: {
     icon: '/favicon.ico',
   },

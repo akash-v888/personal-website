@@ -16,19 +16,19 @@ export default function About() {
 
               <div className="space-y-6 text-base leading-relaxed max-w-lg mx-auto lg:mx-0 text-center lg:text-left">
                 <p>
-                  I'm a Computer Science and Economics senior at Northeastern University with a focus on backend engineering, cloud automation, and infrastructure as code.
+                  I recently graduated Cum Laude from Northeastern University with a B.S. in Computer Science and Economics. I’m actively seeking Software Engineering and DevOps roles where I can build reliable, scalable systems and help teams ship faster.
                 </p>
 
                 <p>
-                  Currently, I am working at Stellar Science as a Software Engineer, working on projects involving surrogate modeling and designing an internal LLM. Aside from those projects, I work alongside multiple teams to further optimize and enhance our physics modeling simulation applications, primarily using C++ and Python.
+                  Most recently, I worked at Stellar Science as a Software Engineering Co-op, contributing to surrogate modeling initiatives and helping design an internal LLM. I also collaborated across teams to optimize and enhance physics modeling simulation applications, primarily using C++ and Python.
                 </p>
 
                 <p>
-                  Previously, I worked as a DevOps Engineer Co-op at State Street, where I automated cloud infrastructure and helped scale internal systems using tools like Azure, Docker, and Python. I enjoy building reliable, maintainable solutions that reduce friction and make teams more efficient.
+                  Prior to that, I completed a DevOps Engineering Co-op at State Street, where I automated cloud infrastructure and helped scale internal systems using Azure, Docker, and Python. That experience gave me a deep appreciation for building infrastructure that is not just functional, but maintainable and easy to operate at scale.
                 </p>
 
                 <p>
-                  I believe in writing clean, thoughtful code and building systems that not only work today but can scale and evolve with changing requirements. My goal is to contribute to meaningful projects that make a positive impact.
+                  I’m genuinely excited about the role AI is playing in modern software engineering — from intelligent developer tooling to AI-assisted infrastructure and operations. I’m interested in working at the intersection of these capabilities and real-world systems, building things that are not just functional today but positioned to evolve with the technology.
                 </p>
 
                 <p>
